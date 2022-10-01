@@ -16,3 +16,38 @@ img {
   display: block;
   max-width: 100%;
 }
+
+#datetime-picker {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+}
+
+button[data-start] {
+  display: block;
+  background-color: transparent;
+  border: 1px solid #212121;
+  padding: 5px 10px;
+  border-radius: 3px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button[data-start]:hover,
+button[data-start]:focus {
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  align-items: center;
+}
