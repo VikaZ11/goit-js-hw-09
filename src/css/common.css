@@ -26,7 +26,7 @@ img {
 
 button[data-start] {
   display: block;
-  border: 1px solid #212121;
+  border: 1px solid #212122;
   padding: 5px 10px;
   border-radius: 3px;
   margin-top: 10px;
@@ -36,7 +36,7 @@ button[data-start] {
 
 button[data-stop] {
   display: block;
-  border: 1px solid #212121;
+  border: 1px solid #212122;
   padding: 5px 10px;
   border-radius: 3px;
   margin-top: 10px;
