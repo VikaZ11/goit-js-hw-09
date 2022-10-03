@@ -4,6 +4,7 @@ import { Notify } from 'notiflix/build/notiflix-notify-aio';
 
 const timerRef = document.querySelector('.timer');
 const startBtn = document.querySelector('[data-start]');
+const inputRef = document.querySelector('#datetime-picker');
 startBtn.setAttribute('disabled', '');
 
 const timer = {
@@ -17,6 +18,9 @@ const timer = {
   },
 
   start(rootSelector, deadline) {
+    startBtn.setAttribute('disabled', '');
+    inputRef.setAttribute('disabled', '');
+
     Notify.success('Відлік почався!', this.notifyOptions);
     this.getRefs(rootSelector);
     this.intervalId = setInterval(() => {
